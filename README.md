@@ -1,4 +1,4 @@
-![](https://github.com/Ledgex/interview-task-senior/workflows/build-master/badge.svg)
+![https://github.com/Ledgex/interview-task-senior/actions](https://github.com/Ledgex/interview-task-senior/workflows/build-master/badge.svg)
 
 # Overview
 
