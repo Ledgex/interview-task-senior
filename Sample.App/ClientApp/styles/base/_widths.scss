@@ -1,0 +1,23 @@
+
+
+// generate some rem width classes
+@for $i from 1 through 20 {
+  .mc-minw-#{$i}r{
+    min-width: #{$i}rem;
+  }
+}
+
+// width classes
+@for $i from 1 through 20 {
+  .mc-w-#{$i * 5}p{
+    width: #{round(percentage($i * 5/100))};
+  }
+}
+
+.mc-w-3p { width: 3%; }
+.mc-w-7p { width: 7%; }
+.mc-w-8p { width: 8%; }
+
+.mc-w-rest {
+  width: 99%;
+}
