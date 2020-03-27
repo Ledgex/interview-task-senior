@@ -21,14 +21,14 @@ You'll need the following software installed on your computer:
 ## Instructions
 
 - Perform a `git clone` on this repository to your computer.
-- Create a branch to perform your work (Ex: `git checkout -b mysubmission)
+- Create a branch to perform your work (Ex: `git checkout -b mysubmissionbranch`)
 - Open the Visual Studio solution and build/run. This may take a few moments as it also performs an `npm install` for the SPA.
 - Perform the tasks below
 - Send us a git patch (see the bottom of this doc)
 
 At this point, you should see the following which is a light dashboard showing Market Values pulled in from the API:
 
-![screenshot](https://github.com/Ledgex/interview-senior-engineer/blob/master/readme/screenshot.png "Screenshot of app")
+![screenshot](https://raw.githubusercontent.com/Ledgex/interview-task-senior/master/readme/screenshot.png "Screenshot of app")
 
 ## Tasks
 
@@ -48,7 +48,7 @@ Market Values
 
 New Transaction Page
 
-![screenshot](https://github.com/Ledgex/interview-senior-engineer/blob/master/readme/mockup-transactions.jpg "Transactions Mockup")
+![screenshot](https://raw.githubusercontent.com/Ledgex/interview-task-senior/master/readme/mockup-transactions.jpg "Transactions Mockup")
 
 ## Submitting your work
 
