@@ -1,8 +1,10 @@
 # Overview
 
-Welcome applicant! This repository contains a very lightweight project that we'd like you to perform a few technical tasks on. Once the pre-requisite software is installed, we only expect you to spend 1-2 hours on this!
+Welcome applicant! This repository contains a very lightweight project (there is no auth, no database). We'd like you to carve out 1-2 hours and perform a few technical tasks.
 
-Please install the required software, check out the instructions, and tasks. Instructions on how to submit are at the bottom.
+### Important!
+
+We hope you can spend at most two hours on this project. If you can finish faster — great! If not, limit yourself and don't spend much longer than 2 hours MAX.
 
 ## Software Required
 
@@ -22,19 +24,19 @@ You'll need the following software installed on your computer:
 - Perform the tasks below
 - Send us a git patch (see the bottom of this doc)
 
-At this point, you should see the following:
+At this point, you should see the following which is a light dashboard showing Market Values pulled in from the API:
 
 ![screenshot](https://github.com/Ledgex/interview-senior-engineer/blob/master/readme/screenshot.png "Screenshot of app")
 
 ## Tasks
 
-Once you have the project downloaded and installed, we'd like for you to complete the following tasks. We've included a few small bonus tasks/fixes as well.
+Once you have the project downloaded and installed, we'd like for you to complete the following tasks.
 
 Transactions
-1. Create a new page that shows all Transactions in the system in a simple table. The TransactionRepository has fake Transactions already. You'll have to wire this through to an API endpoint. 
+1. Create a new page that shows all Transactions in the system in a simple table. The TransactionRepository has fake Transactions already. You'll have to wire this through to an API endpoint.
 2. Sort the Transactions by TradeDate DESC.
 3. The "Amount" calculation is Units * Price.
-4. On the UI, ensure the amounts are properly formatted show USD currency and the As Of Date is formatted to show MM-DD-YYYY.
+4. On the UI, ensure the dollar amounts are properly formatted to show USD currency and the As Of Date is formatted to show MM-DD-YYYY.
 
 Market Values
 1. Fix the Market Values on the home dashboard to also format the amount properly

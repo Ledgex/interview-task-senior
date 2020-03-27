@@ -12,7 +12,6 @@ namespace Sample.App.Common.DTOs
             TransactionType = type;
             Price = price;
             Units = units;
-            Amount = price * units;
         }
 
         public TransactionDTO(DateTime tradeDate, string investmentSymbol, double amount, TransactionType type)
