@@ -14,7 +14,7 @@ You'll need the following software installed on your computer:
 
 - [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)
 - [VSCode](https://code.visualstudio.com/) - We recommend using VSCode for the frontend and navigate to `interview-task-senior\Sample.App\ClientApp`
-- [.NET Core 2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2) - (Note: this version is no longer supported. We've updated to the latest LTS on our platform)
+- [.NET Core 2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2) - (Note: this version is no longer supported by MSFT. We've updated to the latest LTS on our platform)
 - [Git](https://git-scm.com/)
 
 
