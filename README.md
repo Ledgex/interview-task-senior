@@ -1,6 +1,6 @@
 # Overview
 
-Welcome applicant! This repository contains a very lightweight project that we'd like you to perform a few technical tasks on. Once the pre-requisite software is installed, we only expect you to spend a few hours on this!
+Welcome applicant! This repository contains a very lightweight project that we'd like you to perform a few technical tasks on. Once the pre-requisite software is installed, we only expect you to spend 1-2 hours on this!
 
 Please install the required software, check out the instructions, and tasks. Instructions on how to submit are at the bottom.
 
@@ -16,9 +16,11 @@ You'll need the following software installed on your computer:
 
 ## Instructions
 
-- Install required software needed to work on the sample project (see "Software Required" above).
 - Perform a `git clone` on this repository to your computer.
+- Create a branch to perform your work (Ex: `git checkout -b mysubmission)
 - Open the Visual Studio solution and build/run. This may take a few moments as it also performs an `npm install` for the SPA.
+- Perform the tasks below
+- Send us a git patch (see the bottom of this doc)
 
 At this point, you should see the following:
 
@@ -28,12 +30,15 @@ At this point, you should see the following:
 
 Once you have the project downloaded and installed, we'd like for you to complete the following tasks. We've included a few small bonus tasks/fixes as well.
 
-1. Create a new page that shows all Transactions in the system. The TransactionRepository has fake Transactions already that you can pull in through the API.
+Transactions
+1. Create a new page that shows all Transactions in the system in a simple table. The TransactionRepository has fake Transactions already. You'll have to wire this through to an API endpoint. 
 2. Sort the Transactions by TradeDate DESC.
 3. The "Amount" calculation is Units * Price.
 4. On the UI, ensure the amounts are properly formatted show USD currency and the As Of Date is formatted to show MM-DD-YYYY.
-5. Fix the Market Values screen to also format the amount properly
-6. Finally, on the Market Values screen, adjust the color of the performance numbers. If the value is > 0%, make it green. If = 0%, leave it black. If < 0% make it red.
+
+Market Values
+1. Fix the Market Values on the home dashboard to also format the amount properly
+2. Finally, on the Market Values screen, adjust the color of the performance numbers. If the value is > 0%, make it green. If = 0%, leave it black. If < 0% make it red.
 
 ## Mockups
 
@@ -43,4 +48,11 @@ New Transaction Page
 
 ## Submitting your work
 
-To submit the project, send us a git patch. [Instructions TBD]
+To submit the project, send us a git patch from the branch created above.
+
+### Create the patch file
+`git format-patch master --stdout > my_submission.patch`
+
+### Send it to us
+
+Zip the patch file and send it to interview.task.submission@ledgex.com with your name somewhere in the body!
