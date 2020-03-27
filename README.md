@@ -9,7 +9,7 @@ Please install the required software, check out the instructions, and tasks. Ins
 You'll need the following software installed on your computer:
 
 - [Visual Studio Community Edition](https://visualstudio.microsoft.com/vs/community/)
-- [VSCode](https://code.visualstudio.com/) - We recommend using VSCode for the frontend.
+- [VSCode](https://code.visualstudio.com/) - We recommend using VSCode for the frontend and navigate to `interview-task-senior\Sample.App\ClientApp`
 - [.NET Core 2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2)
 - [Git](https://git-scm.com/)
 
@@ -48,9 +48,10 @@ New Transaction Page
 
 ## Submitting your work
 
-To submit the project, send us a git patch from the branch created above.
+To submit the changes, send us a git patch from the branch created above.
 
 ### Create the patch file
+
 `git format-patch master --stdout > my_submission.patch`
 
 ### Send it to us
