@@ -1,3 +1,5 @@
+![](https://github.com/Ledgex/interview-task-senior/workflows/build-master/badge.svg)
+
 # Overview
 
 Welcome applicant! This repository contains a very lightweight project (there is no auth, no database). We'd like you to carve out 1-2 hours and perform a few technical tasks.
